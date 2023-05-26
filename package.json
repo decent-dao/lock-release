@@ -1,5 +1,5 @@
 {
-  "name": "decent-token-vesting",
+  "name": "lock-release",
   "version": "0.1.0",
   "private": true,
   "scripts": {
