@@ -2,11 +2,12 @@
 
 pragma solidity ^0.8.19;
 
+import "./Checkpoints.sol";
 import "@openzeppelin/contracts-4/token/ERC20/utils/SafeERC20.sol";
 
 /// @title LockRelease
 /// @dev This contract allows to create token release schedules and to release those tokens.
-contract LockRelease {
+contract LockRelease is Checkpoints {
     using SafeERC20 for IERC20;
 
     /// @dev Represents a release schedule for a specific beneficiary.
